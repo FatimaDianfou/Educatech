@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<!-- Définir l'encodage de caractères pour le document -->
+    <meta charset="UTF-8"> 
+<!-- Rendre la page réactive aux différents appareils -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+<!-- Titre de la page -->
+    <title>Educatechs</title> 
+
+<!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Connexion</h1>
+        <form id="login-form">
+
+<!-- Etiquette pour le champ email de connexion -->
+            <label for="login-email">Adresse Email</label> 
+<!-- Champ de saisie pour l'email de connexion -->
+            <input type="email" id="login-email" placeholder="educatech@gmail.com"> 
+
+<!-- Etiquette pour le champ mot de passe de connexion -->
+            <label for="login-password">Mot de Passe</label> 
+<!-- Champ de saisie pour le mot de passe de connexion -->
+            <input type="password" id="login-password" placeholder="F@toumata16"> 
+
+<!-- Bouton de soumission du formulaire de connexion -->
+            <button type="submit">Se Connecter</button> 
+        </form>
+
+<!-- Bouton de déconnexion (caché par défaut) -->
+        <button id="logout-button" style="display: none;">Se Déconnecter</button> 
+<!-- Zone d'affichage des messages -->
+        <div id="message"></div> 
+
+<!-- Lien vers la page de création de compte -->        
+        <p>Pas encore de compte ? <a href="index.html">Créer un Compte</a></p> 
+    </div>
+
+<!-- Lien vers le fichier JavaScript -->
+    <script src="scripts.js"></script> 
+</body>
+</html>

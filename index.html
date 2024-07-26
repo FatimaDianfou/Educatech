@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<!-- Permet de définir l'encodage de caractères pour le document -->
+    <meta charset="UTF-8"> 
+
+<!-- Rendre la page réactive aux différents appareils -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<!-- Titre de la page -->
+    <title>Educatech</title> 
+
+<!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Créer un Compte</h1>
+
+        <form id="signup-form">
+<!-- Etiquette pour le champ Prénom d'utilisateur -->
+            <label for="firstname">Prénom</label>
+<!-- Champ de saisie pour le Prénom d'utilisateur -->            
+            <input type="text" id="firstname" placeholder="Fatima"> 
+
+<!-- Etiquette pour le champ nom d'utilisateur -->
+            <label for="surname">Nom</label>
+<!-- Champ de saisie pour le nom d'utilisateur -->  
+            <input type="text" id="surname" placeholder="Diallo">
+
+<!-- Etiquette pour le champ email -->
+            <label for="email">Adresse Email</label> 
+<!-- Champ de saisie pour l'email -->
+            <input type="email" id="email" placeholder="educatech@gmail.com"> 
+
+<!-- Etiquette pour le champ mot de passe -->
+            <label for="password">Mot de Passe</label> 
+<!-- Champ de saisie pour le mot de passe -->
+            <input type="password" id="password" placeholder="F@toumata16"> 
+
+<!-- Etiquette pour le champ de confirmation du mot de passe -->
+            <label for="confirm-password">Confirmer le Mot de Passe</label> 
+<!-- Champ de saisie pour la confirmation du mot de passe -->
+            <input type="password" id="confirm-password" placeholder="F@toumata16"> 
+
+<!-- Bouton de soumission du formulaire -->
+            <button type="submit">Créer un Compte</button> 
+        </form>
+<!-- Zone d'affichage des messages -->
+        <div id="message"></div> 
+
+<!-- Lien vers la page de connexion -->
+        <p>Déjà un compte ? <a href="login.html">Se Connecter</a></p> 
+    </div>
+
+<!-- Lien vers le fichier JavaScript -->    
+    <script src="scripts.js"></script> 
+</body>
+</html>

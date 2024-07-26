@@ -1,0 +1,68 @@
+body {
+
+    font-family: Arial, sans-serif; /* Police de caractères pour le corps du texte */
+    background-color: #f0f0f0; /* Couleur de fond */
+    display: flex; /* Flexbox pour centrer le contenu */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    min-height: 100vh; /* Hauteur de la fenêtre */
+    margin: 0; /* Suppression des marges par défaut */
+}
+
+.container {
+    background-color: white; /* Couleur de fond du conteneur */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 8px; /* Bordures arrondies */
+    box-shadow: 0 0 10px blue; /* Ombre portée */
+    width: 300px; /* Largeur du conteneur */
+    text-align: center; /* Centrer le texte */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+form {
+    display: flex; /* Flexbox pour les éléments du formulaire */
+    flex-direction: column; /* Disposition verticale */
+    margin-bottom: 20px; /* Espacement sous le formulaire */
+}
+
+label {
+    margin-bottom: 5px; /* Espacement sous les étiquettes */
+    font-weight: bold; /* Texte en gras */
+}
+
+input {
+    margin-bottom: 15px; /* Espacement sous les champs de saisie */
+    padding: 10px; /* Espacement intérieur */
+    border: 1px solid #ccc; /* Bordure des champs de saisie */
+    border-radius: 4px; /* Bordures arrondies */
+}
+
+button {
+    padding: 10px; /* Espacement intérieur */
+    background-color: #28a745; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Bordures arrondies */
+    cursor: pointer; /* Curseur en forme de main */
+}
+
+button:hover {
+    background-color: #218838; /* Couleur de fond au survol */
+}
+
+#logout-button {
+    background-color: #dc3545; /* Couleur de fond du bouton de déconnexion */
+}
+
+#logout-button:hover {
+    background-color: #c82333; /* Couleur de fond au survol du bouton de déconnexion */
+}
+
+#message {
+    margin-top: 20px; /* Espacement au-dessus de la zone de message */
+    font-size: 14px; /* Taille de la police du message */
+    color: red; /* Couleur du texte du message */
+}
